@@ -10,12 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170626152605) do
-
-  create_table "rectangles", force: :cascade do |t|
-    t.string "label"
-    t.float "width"
-    t.float "length"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
